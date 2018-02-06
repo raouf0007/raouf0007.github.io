@@ -1,0 +1,29 @@
+.img_container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin: auto;
+    border: 2px solid rgba(33, 34, 34, 0.6);
+    border-radius: 5px;
+}
+
+.img_container:hover {
+    background-color: rgba(33, 34, 34, 0.3);
+}
+
+.img_container:active {
+    background-color: rgba(33, 34, 34, 0.8);
+    border-width: 5px;
+}
+
+.img_safe {
+    max-width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+#img_title {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-transform: uppercase; 
+}
